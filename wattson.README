@@ -1,0 +1,28 @@
+Prerequisites
+=============
+
+1/ Install pip Python package manager. Install instructions for FreeBSD:
+     a/ Check Python version
+        python --version
+
+     b/ Install pip for python version 3.8
+        pkg install -y py38-pip
+
+     c/ Upgrade pip to the latest version by using the following command
+        pip install --upgrade pip
+
+2/ pySerial must be installed to be able tu use serial ports. Install instructions:
+   python -m pip install pyserial
+
+   For more information read ...
+   https://pyserial.readthedocs.io/en/latest/shortintro.html
+
+Usage
+=====
+
+Run the script "wattson.py" as root user.
+Hint: Switch to root user (su -l root) or leverage sudo command.
+
+Run the script:
+./wattson.py
+
